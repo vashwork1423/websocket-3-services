@@ -1,0 +1,21 @@
+{
+  "name": "websockets-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run service1 & npm run service2 & npm run service3",
+    "service1": "nodemon service1.js",
+    "service2": "nodemon service2.js",
+    "service3": "nodemon service3.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
